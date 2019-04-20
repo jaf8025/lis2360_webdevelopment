@@ -1,0 +1,141 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #130F5C;
+  color: #000000;
+  font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
+}
+p {
+  font-size: .9em;
+  margin: 0 40px;
+  margin-bottom: 20px;
+  line-height: 1.5em;
+}
+h1 {
+  font-size: 1.8em;
+  margin: 0 40px;
+  padding: 20px 0;
+}
+h2 {
+  font-size: 1.4em;
+  margin: 0 40px;
+  padding: 20px 0;
+  font-weight: bold;
+}
+h3 {
+  font-size: 1.2em;
+  margin: 0 40px;
+  padding: 20px 0;
+  font-weight: bold;
+}
+li, td {
+	font-size: .9em;
+}
+ol li {
+	margin-left: 40px;
+}
+table {
+	margin: 0 40px;
+	border: solid #C9B100 1.5px;
+	border-collapse:collapse;
+}
+td {
+	padding: 6px;
+	border: solid #C9B100 1.5px;
+	margin: 0;
+}
+th {
+	font-weight: bold;
+	background-color: #999938;
+	text-align: center;
+	padding: 6px;
+	border: solid #C9B100 1.5px;
+	margin: 0;
+}
+a:link {
+	font-weight: bold;
+	color: #C96B00;
+}
+a:visited {
+	font-weight: bold;
+	color: #C96B00;
+}
+a:hover {
+	color: #FF1919;
+	text-decoration: none;
+}
+
+iframe{
+	margin: 0 40px;
+}
+/* DIV STYLES FOR PAGE LAYOUT */
+
+#container {
+  width: 800px;
+  margin: 0 auto;
+  border: 0px solid #000;
+  background-color:  #fff;
+  overflow: hidden;
+}
+
+/* Header Styles */
+#header{
+  width: 100%;
+  background-color: #EFFFFF;
+  padding: 0;
+}
+#header h3{
+  margin: 0;
+  padding: 0;
+}
+
+/* Main content styles */
+#content{
+  width: 580px;
+  background-color: #fff;
+  padding: 0px;
+  float: left; 
+  margin-top: 20px;
+}
+/* Sidebar styles */
+#sidebar{
+  width: 150px;
+  background-color: #EFFFFF;
+  padding: 10px;	
+  float: left;
+  margin-right: 40px;
+  margin-top: 40px;
+  border: solid #C9B100 .4px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+#sidebar h1 {
+  font-size: 1em;
+  margin: 0;
+  padding: 0;
+}
+#sidebar p {
+  font-size: .7em;
+  margin: 0;
+  padding: 0;
+  letter-spacing: 0;
+}
+#sidebar img {
+  width: 150px;
+}
+/* Footer styles */
+#footer{
+  width: 100%;
+  background-color: #fff;
+  text-align:center;
+  padding: 20px 0;
+  clear: both;
+  border-top: solid #C9B100 2px;
+}
+#footer p {
+  font-size: .7em;
+  margin: 0 40px;
+}
+ 
